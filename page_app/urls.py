@@ -13,5 +13,5 @@ urlpatterns = [
 
     path('services/', services),
 
-    path('welcome/', welcome),
+    path('welcome/', welcome), 
 ]

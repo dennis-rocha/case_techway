@@ -8,7 +8,7 @@ def contato (request):
     return render(request, "page_app/partial/contato.html")
 
 def footer (request):
-    return render(request, "page_app/partial/footer.html")
+    return render(request, "page_app/partial/footer.html") 
 
 def header (request):
     return render(request, "page_app/partial/header.html")
