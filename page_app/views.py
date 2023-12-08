@@ -6,3 +6,15 @@ def index (request):
 
 def contato (request):
     return render(request, "page_app/partial/contato.html")
+
+def footer (request):
+    return render(request, "page_app/partial/footer.html")
+
+def header (request):
+    return render(request, "page_app/partial/header.html")
+
+def services (request):
+    return render(request, "page_app/partial/services.html")
+
+def welcome (request):
+    return render(request, "page_app/partial/welcome.html")
